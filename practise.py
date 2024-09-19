@@ -26,3 +26,14 @@ if (check_pass == password):
     print("login successful")
 else:
     print("wrong password ")
+
+    # Create a list 
+Expert= ["Ankit", "Manish gandu ", "Rupesh", "chaipati", "manish ki besti(sangita)"]
+
+# Initialize an index variable
+index = 0
+
+# Use a while loop to iterate through the list
+while index < len(Expert):
+    print(Expert[index])
+    index += 1
